@@ -17,7 +17,7 @@ I am a researcher focused on developing robust and interpretable Artificial Inte
 Here you will find the official code and resources for my published research:
 
 ### 2026
-* 🫁 **[Reducing Diagnostic Ambiguity via Multimodal Fusion](https://github.com/TU_USUARIO/TU_REPOSITORIO_DEL_PAPER)**
+* 🫁 **[Reducing Diagnostic Ambiguity via Multimodal Fusion](https://github.com/carlosMDTI/Uncertainty-Gated-ChestXRay)**
   * *Status:* Under Review.
   * *Tech:* PyTorch, Hugging Face, ViT, BioBERT.
   * *Description:* A Full-Transformer framework featuring an Uncertainty-Gated Ensemble to resolve visual ambiguity in chest X-rays using clinical reports.
