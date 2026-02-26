@@ -41,5 +41,5 @@ Here you will find the official code and resources for my published research:
 ## 📫 Let's Connect
 
 - ✉️ **Email:** carlos.moreno@dti.uhu.es
-- 💼 **LinkedIn:** [Carlos Moreno García](https://linkedin.com/in/TU_LINKEDIN)
+- 💼 **LinkedIn:** [Carlos Moreno García]([https://www.linkedin.com/in/carlosmorenodti/])
 - 🏛️ **Google Scholar:** [My Profile](https://scholar.google.com/citations?user=TU_USUARIO_SCHOLAR)
