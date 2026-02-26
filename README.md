@@ -42,4 +42,4 @@ Here you will find the official code and resources for my published research:
 
 - ✉️ **Email:** carlos.moreno@dti.uhu.es
 - 💼 **LinkedIn:** [Carlos Moreno García](https://www.linkedin.com/in/carlosmorenodti/)
-- 🏛️ **Google Scholar:** [My Profile](https://scholar.google.com/citations?user=TU_USUARIO_SCHOLAR)
+- 🏛️ **Google Scholar:** [My Profile](https://scholar.google.com/citations?user=9LATVmYAAAAJ&hl=es)
