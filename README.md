@@ -17,10 +17,10 @@ I am a researcher focused on developing robust and interpretable Artificial Inte
 Here you will find the official code and resources for my published research:
 
 ### 2026
-* 🫁 **[Adaptive Multimodal Fusion in Radiology: Dynamic Balancing of Visual Findings and Clinical Context](https://github.com/carlosMDTI/Uncertainty-Gated-ChestXRay)**
-  * *Status:* Under Review.
-  * *Tech:* PyTorch, Hugging Face, ViT, BioBERT.
-  * *Description:* A Full-Transformer framework featuring an Uncertainty-Gated Ensemble to resolve visual ambiguity in chest X-rays using clinical reports.
+* 🫁 **[Adaptive Multimodal Fusion in Radiology: Dynamic Balancing of Visual Findings and Clinical Context](https://github.com/CarlosmDTI/Adaptive_Multimodal_Fusion_in_Radiology)**
+  * *Status:* Preprint available on [medRxiv](https://www.medrxiv.org/content/10.64898/2026.09.04.26362226v1) | Submitted to *PLOS Digital Health*.
+  * *Tech:* PyTorch, Hugging Face, ViT, ClinicalBERT.
+  * *Description:* A multimodal AI framework featuring a Neural Gated Fusion mechanism to dynamically balance visual evidence from chest X-rays with the textual context of clinical reports.
 
 *(More publications will be added here as they are released)*
 
