@@ -1,45 +1,54 @@
 # Hi there, I'm Carlos Moreno García 👋
 
-🎓 **AI Researcher | Deep Learning & Medical Imaging** 📍 *I2C Research Group, University of Huelva, Spain*
+[![Scholar](https://img.shields.io/badge/Google_Scholar-Carlos_Moreno_Garc%C3%ADa-4285F4?style=flat-square&logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=9LATVmYAAAAJ&hl=es)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-carlosmorenodti-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/carlosmorenodti/)
+[![Email](https://img.shields.io/badge/Email-carlos.moreno%40dti.uhu.es-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:carlos.moreno@dti.uhu.es)
 
-I am a researcher focused on developing robust and interpretable Artificial Intelligence systems for healthcare. My work primarily revolves around **Multimodal Fusion**, bridging the gap between Computer Vision (medical scans) and Natural Language Processing (clinical reports) to reduce diagnostic ambiguity.
+**AI Researcher | Medical Computer Vision & Clinical NLP**  
+📍 *I2C Research Group, University of Huelva, Spain*
 
-## 🔬 Research Focus
-- **Medical AI:** Chest X-ray analysis, Computer-Aided Diagnosis (CAD).
-- **Deep Learning:** Vision Transformers (ViT), Large Language Models (BioBERT, LLMs).
-- **Multimodal Architectures:** Feature fusion, Concept Blinding, Uncertainty-Gated Inference.
-- **Explainable AI (XAI):** Ensuring model decisions are clinically coherent and interpretable.
-
----
-
-## 📚 Selected Publications & Repositories
-
-Here you will find the official code and resources for my published research:
-
-### 2026
-* 🫁 **[Adaptive Multimodal Fusion in Radiology: Dynamic Balancing of Visual Findings and Clinical Context](https://github.com/CarlosmDTI/Adaptive_Multimodal_Fusion_in_Radiology)**
-  * *Status:* Preprint available on [medRxiv](https://www.medrxiv.org/content/10.64898/2026.09.04.26362226v1) | Submitted to *PLOS Digital Health*.
-  * *Tech:* PyTorch, Hugging Face, ViT, ClinicalBERT.
-  * *Description:* A multimodal AI framework featuring a Neural Gated Fusion mechanism to dynamically balance visual evidence from chest X-rays with the textual context of clinical reports.
-
-*(More publications will be added here as they are released)*
+I design robust, uncertainty-aware Deep Learning systems for healthcare. My core research tackles **diagnostic ambiguity in medical imaging** through **hierarchical multimodal fusion**, aligning high-resolution radiological findings (CXR) with clinical reports to build trustworthy, interpretable Computer-Aided Diagnosis (CAD) models.
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## 🔬 Research Interests & Core Expertise
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/LaTeX-47A141.svg?style=for-the-badge&logo=LaTeX&logoColor=white" />
-</p>
+- **Multimodal Medical Alignment:** Dual-Transformer pipelines (ViT + BioBERT), Vision-Language Pre-training (VLP), and Cross-Modal Attention.
+- **Uncertainty-Gated Inference:** Dynamic decision arbitration using visual entropy/confidence thresholds ($\tau$) to rescue ambiguous visual predictions via clinical context.
+- **Robust Medical NLP:** Concept Blinding (regularized label masking) to mitigate shortcut learning and lexical leakage in radiological report comprehension.
+- **Clinically-Grounded XAI:** Semantic-visual coherence, alignment between token-level report findings and localized image pathology.
 
 ---
 
-## 📫 Let's Connect
+## 📚 Highlighted Research & Open Source
 
-- ✉️ **Email:** carlos.moreno@dti.uhu.es
-- 💼 **LinkedIn:** [Carlos Moreno García](https://www.linkedin.com/in/carlosmorenodti/)
-- 🏛️ **Google Scholar:** [My Profile](https://scholar.google.com/citations?user=9LATVmYAAAAJ&hl=es)
+### 🫁 [Reducing Diagnostic Ambiguity via Multimodal Fusion](https://github.com/CarlosmDTI/Adaptive_Multimodal_Fusion_in_Radiology)
+*A Framework for Alignment and Coherence between Radiological Findings and Clinical Reports*
+
+- **Focus:** Resolving visual modality bias and opacity overlap in Chest X-Rays using selective textual arbitration.
+- **Architecture:** Vision Transformer (ViT-Base) + BioBERT v1.1 + Uncertainty-Gated Ensemble.
+- **Key Results on PadChest (Expert-Validated Cohort):**
+  - **F1-Score: 0.97** overall weighted average, outperforming unimodal vision baselines.
+  - **87% Sensitivity on Pneumonia**, effectively recovering false negatives where image alone was inconclusive.
+  - Zero performance trade-off on high-confidence structural pathologies (Fibrosis F1: 0.99).
+- **Artifacts:** Code, pipeline configs, and reproduction scripts available in the repository.
+
+---
+
+## 🛠️ Stack & Research Toolkit
+
+| Category | Tools & Frameworks |
+|---|---|
+| **Core & Deep Learning** | Python, PyTorch, Hugging Face Transformers, Torchvision, Scikit-learn |
+| **Vision & Language Encoders** | Vision Transformers (ViT), BioBERT, ClinicalBERT, CNN Backbones (DenseNet, ResNet) |
+| **Medical Imaging & Data** | PadChest, MIMIC-CXR, CheXpert, DICOM processing, TorchIO, Albumentations |
+| **Scientific Tooling** | Git, Weights & Biases (W&B), JupyterLab, LaTeX, TikZ, Overleaf |
+
+---
+
+## 🤝 Let's Collaborate
+
+I am always open to discussing multimodal representation learning, foundation models in healthcare, and scientific collaborations.
+
+- 💬 Inquiries: **carlos.moreno@dti.uhu.es**
+- 🌐 University Profile: [I2C Research Group — Universidad de Huelva](http://www.uhu.es)
